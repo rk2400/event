@@ -52,7 +52,8 @@ export default function signup({ userIdCookie }) {
     const handleVerifyEmail = async (event) => {
         event.preventDefault();
         const response = await fetch(
-            `${process.env.NEXT_PUBLIC_API_URL}/user/signup`,
+            // `${process.env.NEXT_PUBLIC_API_URL}/user/signup`,
+            "https://event-oabu.onrender.com/user/signup",
             {
                 method: "POST",
                 headers: {

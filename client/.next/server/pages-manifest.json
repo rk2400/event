@@ -1,18 +1,18 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
-  "/admin/eventform": "pages/admin/eventform.html",
-  "/": "pages/index.html",
   "/admin/dashboard": "pages/admin/dashboard.html",
+  "/admin/eventform": "pages/admin/eventform.html",
   "/event/[eventId]": "pages/event/[eventId].html",
+  "/_error": "pages/_error.js",
   "/event/[eventId]/adminevents": "pages/event/[eventId]/adminevents.html",
-  "/event/[eventId]/registration": "pages/event/[eventId]/registration.html",
   "/event/[eventId]/payment": "pages/event/[eventId]/payment.html",
+  "/event/[eventId]/registration": "pages/event/[eventId]/registration.html",
+  "/": "pages/index.html",
   "/users/dashboard": "pages/users/dashboard.html",
   "/users/past_events": "pages/users/past_events.html",
   "/admin/auth": "pages/admin/auth.js",
-  "/users/signup": "pages/users/signup.js",
   "/users/signin": "pages/users/signin.js",
+  "/users/signup": "pages/users/signup.js",
   "/404": "pages/404.html"
 }
