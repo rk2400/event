@@ -18,7 +18,7 @@ function Header() {
                                     }
                                     className="btn-sm text-white bg-[color:var(--darker-secondary-color)] hover:bg-[color:var(--secondary-color)] ml-3 cursor-pointer"
                                 >
-                                    Event Manager
+                                    Host an Event
                                 </a>
                             </li>
                         </ul>

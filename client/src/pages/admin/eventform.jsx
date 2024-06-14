@@ -11,7 +11,7 @@ function eventform() {
                 <div className="flex flex-col md:h-[calc(88vh)] md:w-[90%] md:flex-row justify-center bg-[color:var(--primary-color)]">
                     <div className="flex-1 mx-6 mb-6 bg-[color:var(--primary-color)]">
                         <Image
-                            src="/img/eventsFormImg.jpg"
+                            src="/img/eventsFormImg.jpeg"
                             alt="Event Image"
                             width={500}
                             height={500}

@@ -12,10 +12,10 @@ function FeaturesZigzag({ images }) {
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
                         <h1 className="h2 mb-4">
-                            One product, unlimited solutions
+                            One Stop, Multiple Opportunities
                         </h1>
                         <p className="text-xl text-gray-500">
-                        Our platform provides a range of features, including event creation and the ability to take registrations, all while accommodating multiple admins.
+                        Our platform provides a range of volunteering activities. Some Blogs are below:-
                         </p>
                     </div>
 
@@ -43,10 +43,10 @@ function FeaturesZigzag({ images }) {
                             >
                                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                                     <div className="text-xl text-[color:var(--darker-secondary-color)] mb-2">
-                                        More speed. High efficiency
+                                        Support the Growth of Needy
                                     </div>
                                     <h3 className="h3 mb-3">
-                                        Keep events on schedule
+                                        Blog 1
                                     </h3>
                                     <p className="text-xl text-gray-500 mb-4">
                                     In order to organize an event, you must log in as an event manager. The platform owner can assign event managers, or you may use test credentials. After logging in, you can begin managing the event.
@@ -104,7 +104,7 @@ function FeaturesZigzag({ images }) {
                                         Super easy. Quick booking
                                     </div>
                                     <h3 className="h3 mb-3">
-                                        Book your favourite shows
+                                        Blog 2
                                     </h3>
                                     <p className="text-xl text-gray-500 mb-4">
                                     On users dashboard, users can view all available events, select their preferred event, and proceed with the booking process.
@@ -162,7 +162,7 @@ function FeaturesZigzag({ images }) {
                                         Less effort. More work
                                     </div>
                                     <h3 className="h3 mb-3">
-                                    Track check-in/check-out
+                                    Blog 3
                                     </h3>
                                     <p className="text-xl text-gray-500 mb-4">
                                     Effortlessly monitor event participants and their details with our platform, and simplify the check-in and check-out process with our convenient features. 

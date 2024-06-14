@@ -95,7 +95,8 @@ export default function signup({ userIdCookie }) {
         const regExp = /^\d{2}[A-Za-z]{3}\d{5}$/; // regular expression pattern for nntttnnnnn format
         if (regExp.test(regNumber)) {
             const response = await fetch(
-                `${process.env.NEXT_PUBLIC_API_URL}/user/signup/verify`,
+                // `${process.env.NEXT_PUBLIC_API_URL}/user/signup/verify`,
+                `https://event-oabu.onrender.com/user/signup/verify`,
                 {
                     method: "POST",
                     headers: {

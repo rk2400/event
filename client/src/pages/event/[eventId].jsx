@@ -194,7 +194,7 @@ function EventPage() {
                                 </div>
                                 <div className="mb-4 bg-white px-6 py-4 rounded-lg shadow-md">
                                     <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                                        Ticket Prices
+                                        Volunteering Cost
                                     </h3>
                                     <ul className="text-gray-600">
                                         {[
@@ -202,14 +202,14 @@ function EventPage() {
                                                 type: "General*",
                                                 price: eventData.price,
                                             },
-                                            {
-                                                type: "VIP*",
-                                                price: 2 * eventData.price,
-                                            },
-                                            {
-                                                type: "VVIP*",
-                                                price: 4 * eventData.price,
-                                            },
+                                            // {
+                                            //     type: "VIP*",
+                                            //     price: 2 * eventData.price,
+                                            // },
+                                            // {
+                                            //     type: "VVIP*",
+                                            //     price: 4 * eventData.price,
+                                            // },
                                         ].map((item, index) => (
                                             <li
                                                 className="flex items-center h-16 py-1 rounded-md p-4 mb-2 hover:shadow-md"
@@ -236,14 +236,13 @@ function EventPage() {
                                                 >
                                                     {isUserRegistered
                                                         ? "Registered"
-                                                        : "Buy Tickets"}
+                                                        : "Volunteer"}
                                                 </button>
                                             </li>
                                         ))}
                                     </ul>
                                     <p className="text-sm text-[color:var(--darker-secondary-color)] mt-6">
-                                        *Caution: All ticket sales are final and
-                                        non-refundable.
+                                        *Caution: All amount will go against NGO Donation. We will not take any convenience fee from this cost. Our Service is entirely free.
                                     </p>
                                 </div>
                             </div>

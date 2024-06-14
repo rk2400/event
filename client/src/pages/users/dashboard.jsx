@@ -95,7 +95,7 @@ function UserDashboard() {
 
     return (
         <div className="pt-20 lg:pt-8 overflow-y-hidden bg-[color:var(--primary-color)]">
-            <UserNavBar />
+            <UserNavBar /> 
             <div className="flex m-auto">
                 <div className="flex mx-auto container ">
                     <div className="flex m-auto overflow-y-hidden gap-4 lg:gap-8 w-full h-[calc(88vh)]">

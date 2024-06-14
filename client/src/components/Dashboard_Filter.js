@@ -71,9 +71,9 @@ function Dashboard_Filter({
                         className="filterInput"
                     >
                         <option value="">Select a category...</option>
-                        <option value="category1">Technical</option>
-                        <option value="category2">Comic</option>
-                        <option value="category3">Personalized</option>
+                        <option value="category1">Animal Welfare</option>
+                        <option value="category2">Education</option>
+                        <option value="category3">Trees Plantation</option>
                     </select>
                 </div>
                 {/* Input field to filter through a date range */}
