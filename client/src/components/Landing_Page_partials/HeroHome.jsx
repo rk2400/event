@@ -2,7 +2,7 @@ import React from 'react';
 
 function HeroHome({ images }) {
     return (
-        <section className="">
+        <section style={{backgroundColor:"black"}} className="">
             <br />
             <br />
             <br />
@@ -17,7 +17,7 @@ function HeroHome({ images }) {
                             {/* {"Charity"}       */}
                             <img
                                     className="max-w-full mx-auto md:max-w-none h-auto"
-                                    src={images[0].src}
+                                    src={images[1].src}
                                     width="540"
                                     height="405"
                                     alt={images[0].title}
