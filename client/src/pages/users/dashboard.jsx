@@ -177,7 +177,7 @@ function UserDashboard() {
                                                         <span className="w-full flex flex-row items-center">
                                                             <FaUsers />
                                                             <span className="ml-2 text-sm">
-                                                                4,92
+                                                                100
                                                             </span>
                                                         </span>
                                                         <p className="text-sm text-gray-800 mt-2">

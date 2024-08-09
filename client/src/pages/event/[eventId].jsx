@@ -147,7 +147,7 @@ function EventPage() {
                                     >
                                         {isUserRegistered
                                             ? "Already Registered"
-                                            : "Buy Tickets"}
+                                            : "Buy Event Passes"}
                                     </button>
                                 </div>
                             </div>
@@ -181,7 +181,7 @@ function EventPage() {
                                     <h3 className="text-xl font-semibold text-gray-900 mb-2">
                                         About the Event
                                     </h3>
-                                    {Array(3)
+                                    {Array(1)
                                         .fill()
                                         .map((_, index) => (
                                             <p

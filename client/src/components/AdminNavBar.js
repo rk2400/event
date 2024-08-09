@@ -57,9 +57,9 @@ export default function NavBar() {
                         className="flex items-center gap-x-3 cursor-pointer"
                     >
                         <Image
-                            src="/favicon_io/android-chrome-192x192.png"
-                            width={500}
-                            height={500}
+                            src="/favicon_io/globe.png"
+                            width={600}
+                            height={600}
                             alt="Logo"
                             className="h-8 w-8"
                         />

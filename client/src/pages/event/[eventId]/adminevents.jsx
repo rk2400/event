@@ -33,7 +33,7 @@ function AdminEventPage() {
     // function to handle delete event button click
     const deleteEvent = async () => {
         const confirmDelete = window.confirm(
-            "This action will permanently delete the event and all associated data. Do you want to continue?"
+            "Once an Event is Deleted, it can not be recovered."
         );
         if (!confirmDelete) {
             return;
@@ -205,7 +205,7 @@ function AdminEventPage() {
                                     <h3 className="text-xl font-semibold text-gray-900 mb-2">
                                         About the Event
                                     </h3>
-                                    {Array(3)
+                                    {Array(1)
                                         .fill()
                                         .map((_, index) => (
                                             <p
@@ -254,9 +254,7 @@ function AdminEventPage() {
                                         </li>
                                     </ul>
                                     <p className="text-sm text-[color:var(--darker-secondary-color)] mt-6">
-                                        *Caution: This action will permanently
-                                        delete the event and all associated
-                                        data. Are you sure you want to proceed?
+                                        *Caution: Once an Event is deleted, it can not be recovered.
                                     </p>
                                 </div>
                             </div>

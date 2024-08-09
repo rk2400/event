@@ -172,7 +172,7 @@ export default function signin({ adminIdCookie }) {
                                     }
                                 />
 
-                                <p className="text-sm text-gray-700 mt-6">
+                                {/* <p className="text-sm text-gray-700 mt-6">
                                     *You have the option to designate yourself
                                     as an admin for testing purposes by
                                     following this{" "}
@@ -183,7 +183,7 @@ export default function signin({ adminIdCookie }) {
                                     >
                                         link.
                                     </a>
-                                </p>
+                                </p> */}
 
                                 <button
                                     type="submit"
@@ -195,8 +195,8 @@ export default function signin({ adminIdCookie }) {
                                 <button
                                     type="submit"
                                     onClick={() => {
-                                        setEmail("invite.testing@gmail.com");
-                                        setPassword("invite123");
+                                        setEmail("admin@csphere.com");
+                                        setPassword("admin123");
                                     }}
                                     className="btn text-white bg-gray-700 hover:bg-gray-800 mt-4 w-full sm:w-auto sm:ml-4"
                                 >
